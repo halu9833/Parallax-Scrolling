@@ -7,9 +7,9 @@
 
 # THANKS
 
-    <name>
+    <Yamei>
 
 # TECHNOLOGY COLOPHON
     Gulp, SASS
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Javascript, Node
