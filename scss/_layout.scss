@@ -1,8 +1,17 @@
-body {
-  background: $bgcolor;
-  font-family: $font;
-}
+* { padding: 0; margin: 0 }
+body { text-align: center; /*background-attachment:fixed;*/ width: 100%; }
 
-h1,h2,h3,h4 {
-  font-family: $headfont;
-}
+#main { width: 100%; margin: auto }
+.header { width: 100%; height: 1080px; overflow: hidden; position: relative; background: url("../img/a1.jpg") center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header2 { background: url(../img/a2.jpg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header3 { width: 100%; height: 1080px; overflow: hidden; position: relative; background: url("../img/a3.jpg") center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header4 { background: url(../img/a4.jpeg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header5 { background: url(../img/a5.jpg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header6 { background: url(../img/a6.jpg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header7 { background: url(../img/a7.jpg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header8 { background: url(../img/a8.jpg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.header9 { background: url(../img/a9.jpg) center center no-repeat; background-attachment: fixed; background-size: cover; }
+.text { position: absolute; top: 30%; left: 300px; }
+.text p { font-size: 30px; font-family: $font; color: #fff; }
+
+.bg-attachment .shadow { width: 100%; height: 1080px; overflow: hidden; margin: auto; }
